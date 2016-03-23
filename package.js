@@ -2,7 +2,7 @@ Package.describe({
   name: 'rgnevashev:stripe',
   version: '4.4.0',
   summary: 'Stripe API wrapper',
-  git: 'https://github.com/stripe/stripe-node',
+  git: 'https://github.com/stripe/stripe-node.git',
   documentation: 'README.md'
 });
 
