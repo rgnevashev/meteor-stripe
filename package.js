@@ -1,6 +1,6 @@
 Package.describe({
   name: 'rgnevashev:stripe',
-  version: '4.4.0_1',
+  version: '4.4.0_2',
   summary: 'Stripe API wrapper',
   git: 'https://github.com/stripe/stripe-node.git',
   documentation: 'README.md'
@@ -13,7 +13,7 @@ Package.onUse(function(api) {
 
   api.use(['templating','underscore','coffeescript']);
 
-  api.addFiles('client/head.html', 'client');
+  api.addFiles('client/body.html', 'client');
   api.addFiles('server/stripe.coffee', 'server');
 
   api.export(['StripeApi','StripeSync'], 'server');
